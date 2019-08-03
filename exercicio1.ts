@@ -9,7 +9,7 @@ let notafinal: number = (nota1 + nota2 + nota3) / 3
 
 if ((nota1 + nota2 + nota3) / 3 < 5) {
     aprovado = false
-    console.log(msg1 + "nota: " + notafinal)
+    console.log('${msg1} e a nota: ${notafinal}')
 } else {
     aprovado = true
     console.log(msg2 + "nota: " + notafinal)
